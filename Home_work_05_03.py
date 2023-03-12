@@ -10,10 +10,10 @@ letters = last_and_first('sail')
 print(f'the answer for exercise 1 is {letters}')
 
 # bonus#1
-def last_and_first (name): return name[0] == name[3]
+# def last_and_first (name): return name[0] == name[3]
 
-letters_2 = last_and_first('sars')
-print(f'the answer for bonus exercise is {letters_2}')
+# letters_2 = last_and_first('sars')
+# print(f'the answer for bonus exercise is {letters_2}')
 
 # bonus#2
 # def last_and_first (name): return name[0] == name[3]
