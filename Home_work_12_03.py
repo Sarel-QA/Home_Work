@@ -13,7 +13,7 @@
 def count_capital(s):
     counter = 0
     for c in s:
-        if c in 'abcABC':
+        if c.isupper():
             counter += 1
     return counter
 print(count_capital(input('please enter string:')))
