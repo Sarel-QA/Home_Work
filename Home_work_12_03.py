@@ -1,13 +1,13 @@
 ##### 05/03/2023 ######
 # 1)
-# def print_negative(number):
-#     i = int(input('enter number:'))
-#     while i <= number:
-#         print(i)
-#         i += 1
-#     else:
-#         print()
-# print_negative(0)
+def print_negative(number):
+    i = int(input('enter number:'))
+    while i <= number:
+        print(i)
+        i += 1
+    else:
+        print()
+print_negative(0)
 
 #  2)
 def count_capital(s):
