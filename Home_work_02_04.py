@@ -11,10 +11,11 @@ class Car:
     def drive(self, c_km):
         if c_km * 5 <= self.fuel:
             self.fuel = self.fuel - c_km * 5
-            print(f'drive was {c_km} no gas was needed and can go a nother {self.fuel / 5} KM')
+            print(f'drive was {c_km} no gas was needed and can go another {self.fuel / 5} KM')
         else:
             print(f'drive was {c_km} and gas is needed')
 # 2)
+
     def refuel(self):
         self.fuel = 100
 
